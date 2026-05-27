@@ -42,10 +42,9 @@ function getPosition(index: number, total: number, isMobile: boolean) {
   const col = index % columns;
   const itemsInRow = Math.min(columns, total - row * columns);
   const colOffset = (columns - itemsInRow) / 2;
-
   const spread = isMobile ? 50 : 85;
   const startLeft = isMobile ? 25 : 7.5;
-  const left = columns === 1 ? 50 : ((col + colOffset) / (columns - 1)) * spread + startLeft;
+  const left = ((col + colOffset) / (columns - 1)) * spread + startLeft;
   
   const topRange = isMobile ? 90 : 55;
   const topStart = isMobile ? 6 : 15;
