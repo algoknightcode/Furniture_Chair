@@ -1,0 +1,1 @@
+export { default as navlogo } from "./navbar_logo.svg";
