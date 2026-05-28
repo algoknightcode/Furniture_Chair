@@ -172,7 +172,7 @@ export default function CircularChairs({ onStart }: CircularChairsProps) {
         <h1 className="text-[clamp(2.2rem,5vw,4rem)] font-light tracking-tight leading-[1.15] text-[#111] m-0">
           Welcome to the
           <br />
-          Office Chair Finder
+          Office Chairs
         </h1>
         <div className="pointer-events-auto flex items-center justify-center">
           <button
@@ -182,11 +182,11 @@ export default function CircularChairs({ onStart }: CircularChairsProps) {
             <span className="relative z-10 tracking-wide drop-shadow-md transition-all duration-300">
               Join Today
             </span>
-            <svg 
-              className="relative z-10 w-5 h-5 transition-transform duration-300 drop-shadow-md group-hover:translate-x-1.5" 
-              fill="none" 
-              viewBox="0 0 24 24" 
-              stroke="currentColor" 
+            <svg
+              className="relative z-10 w-5 h-5 transition-transform duration-300 drop-shadow-md group-hover:translate-x-1.5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
               strokeWidth={3}
             >
               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
